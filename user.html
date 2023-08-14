@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JKT48</title>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--feather icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!--Style-->
+
+    <link rel="stylesheet" href="css/user.css" />
+    <link rel="icon" href="img/icon.jpg" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="navbar-logo">JKT <span>48</span></a>
+
+        <div class="navbar-nav">
+          <a href="index.html">HOME</a>
+          <a href="#tentang">ABOUT</a>
+          <a href="#berita">NEWS</a>
+          <a href="#music">MUSIC</a>
+          <a href="#products">STORE</a>
+          <a href="#member">MEMBER</a>
+        </div>
+
+        <div class="navbar-extra">
+          <a href="user.html" id="User"><i data-feather="user"></i></a>
+          <a href="#" id="menu-tampilan"><i data-feather="menu"></i></a>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="contact-box">
+        <div class="left"></div>
+        <div class="right">
+          <h2>Contact Us</h2>
+          <input type="text" class="field" placeholder="Name" />
+          <input type="email" class="field" placeholder="Email" />
+          <input type="text" class="field" placeholder="Phone" />
+          <textarea class="field area" placeholder="Message"></textarea>
+          <button class="btn">Send</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    feather.replace();
+  </script>
+  <script src="js/script.js"></script>
+</html>
